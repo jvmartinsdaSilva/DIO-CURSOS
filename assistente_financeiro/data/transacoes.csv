@@ -1,0 +1,13 @@
+id_transacao,data,tipo,categoria,descricao,valor,forma_pagamento,status
+TRX-101,2024-05-01,Receita,Vendas Balcão,Vendas do feriado de 1º de Maio,1250.0,Cartão de Crédito,Concluído
+TRX-102,2024-05-02,Despesa,Fornecedores,Compra de café em grãos e leite,680.0,PIX,Concluído
+TRX-103,2024-05-03,Receita,Vendas Balcão,Faturamento diário de café e pães,780.5,Cartão de Débito,Concluído
+TRX-104,2024-05-05,Despesa,Custos Fixos,Aluguel do ponto comercial,2800.0,Boleto,Concluído
+TRX-105,2024-05-05,Despesa,Custos Fixos,Conta de energia elétrica comercial,720.4,Débito Automático,Concluído
+TRX-106,2024-05-06,Receita,Encomendas,Sinal de reserva para 2 cestas comemorativas,145.0,PIX,Concluído
+TRX-107,2024-05-07,Despesa,Pessoal,Adiantamento salarial de atendente,650.0,Transferência,Concluído
+TRX-108,2024-05-08,Receita,Vendas Balcão,Faturamento do dia,890.0,Dinheiro,Concluído
+TRX-109,2024-05-10,Despesa,Impostos,Guia DAS Simples Nacional,480.0,Boleto,Pendente
+TRX-110,2024-05-11,Despesa,Insumos,Embalagens descartáveis e sacolas kraft,310.0,Cartão de Crédito,Concluído
+TRX-111,2024-05-12,Receita,Vendas Balcão,Movimento de Domingo (Dia das Mães),2140.0,Cartão de Crédito/PIX,Concluído
+TRX-112,2024-05-13,Despesa,Manutenção,Reparo preventivo da máquina de espresso,250.0,PIX,Concluído

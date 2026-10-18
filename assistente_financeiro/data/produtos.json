@@ -1,0 +1,76 @@
+{
+    "produtos": [
+        {
+            "id": "PROD-001",
+            "nome": "Café Espresso Tradicional (50ml)",
+            "categoria": "Bebidas Quentes",
+            "custo": 1.2,
+            "preco_venda_sugerido": 6.5,
+            "facilidade_de_venda": "alta",
+            "observacao": "Item âncora, alto giro e excelente margem."
+        },
+        {
+            "id": "PROD-002",
+            "nome": "Pão de Queijo Mineiro Artesanal (Unidade)",
+            "categoria": "Salgados",
+            "custo": 1.8,
+            "preco_venda_sugerido": 5.0,
+            "facilidade_de_venda": "alta",
+            "observacao": "Fácil saída matinal e da tarde, giro diário constante."
+        },
+        {
+            "id": "PROD-003",
+            "nome": "Croissant de Amêndoas Especial",
+            "categoria": "Confeitaria Fina",
+            "custo": 6.8,
+            "preco_venda_sugerido": 16.0,
+            "facilidade_de_venda": "media",
+            "observacao": "Boa margem, saída concentrada nos finais de semana."
+        },
+        {
+            "id": "PROD-004",
+            "nome": "Cappuccino Italiano Cremoso (180ml)",
+            "categoria": "Bebidas Quentes",
+            "custo": 2.9,
+            "preco_venda_sugerido": 11.0,
+            "facilidade_de_venda": "alta",
+            "observacao": "Muito pedido em horários de pico."
+        },
+        {
+            "id": "PROD-005",
+            "nome": "Bolo Caseiro de Cenoura com Chocolate (Fatia)",
+            "categoria": "Bolos",
+            "custo": 2.5,
+            "preco_venda_sugerido": 8.5,
+            "facilidade_de_venda": "media",
+            "observacao": "Produção diária com risco moderado de desperdício se não girar."
+        },
+        {
+            "id": "PROD-006",
+            "nome": "Cesta de Café da Manhã Completa (Encomenda)",
+            "categoria": "Presentes / Especiais",
+            "custo": 65.0,
+            "preco_venda_sugerido": 145.0,
+            "facilidade_de_venda": "baixa",
+            "observacao": "Valor agregado alto, porém venda sazonal (datas comemorativas)."
+        },
+        {
+            "id": "PROD-007",
+            "nome": "Torta Salgada de Frango com Requeijão (Inteira)",
+            "categoria": "Rotisseria",
+            "custo": 38.0,
+            "preco_venda_sugerido": 85.0,
+            "facilidade_de_venda": "baixa",
+            "observacao": "Preço elevado para consumo imediato; exige reserva prévia."
+        },
+        {
+            "id": "PROD-008",
+            "nome": "Suco Natural de Laranja (300ml)",
+            "categoria": "Bebidas Frias",
+            "custo": 2.4,
+            "preco_venda_sugerido": 7.5,
+            "facilidade_de_venda": "media",
+            "observacao": "Variação de custo conforme safra da fruta."
+        }
+    ]
+}

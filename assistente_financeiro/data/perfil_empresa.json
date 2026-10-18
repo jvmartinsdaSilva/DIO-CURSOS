@@ -1,0 +1,27 @@
+{
+    "empresa": {
+        "id": "EMP-001",
+        "razao_social": "Sabor & Café Panificadora Artesanal LTDA",
+        "nome_fantasia": "Cafeteria & Padaria Pão D'Ouro",
+        "cnpj": "12.345.678/0001-90",
+        "ramo_atividade": "Alimentos & Bebidas / Panificação Artesanal",
+        "data_abertura": "2023-04-15",
+        "porte": "Microempresa (ME)",
+        "regime_tributario": "Simples Nacional",
+        "proprietario": {
+            "nome": "Lucas Ferreira da Silva",
+            "tempo_empreendendo": "1 ano e 6 meses",
+            "dificuldades_declaradas": [
+                "Controle e previsão de fluxo de caixa",
+                "Precificação correta de itens sazonais e combos",
+                "Separação entre despesas pessoais e jurídicas"
+            ]
+        },
+        "indicadores_gerais": {
+            "faturamento_medio_mensal": 18500.0,
+            "custo_fixo_medio": 8200.0,
+            "saldo_caixa_atual": 3450.0,
+            "dias_de_capital_de_giro": 12
+        }
+    }
+}
