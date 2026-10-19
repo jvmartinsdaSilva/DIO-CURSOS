@@ -27,19 +27,29 @@ A avaliação pode ser feita de duas formas complementares:
 Crie testes simples para validar seu agente:
 
 ### Teste 1: Consulta de gastos
-- **Pergunta:** "Quanto gastei com alimentação?"
-- **Resposta esperada:** Valor baseado no `transacoes.csv`
-- **Resultado:** [ ] Correto  [ ] Incorreto
+- **Pergunta:** "Ola, pode me passar como foi as ultimas vendas ?"
+- **Resposta esperada:** : "
+    Essas foram as 3 ultimas vendes registradas na tabela. A respota deve conter alguns desses dados.
+
+    TRX-106,2024-05-06,Receita,Encomendas,Sinal de reserva para 2 cestas comemorativas,145.0,PIX,Concluído
+    TRX-108,2024-05-08,Receita,Vendas Balcão,Faturamento do dia,890.0,Dinheiro,Concluído/
+    TRX-111,2024-05-12,Receita,Vendas Balcão,Movimento de Domingo (Dia das Mães),2140.0,Cartão de Crédito/PIX,Concluído
+    "
+- **Resultado:** [X] Correto  [ ] Incorreto
 
 ### Teste 2: Recomendação de produto
-- **Pergunta:** "Qual investimento você recomenda para mim?"
-- **Resposta esperada:** Produto compatível com o perfil do cliente
+- **Pergunta:** "Qual foi a maior receita (em valor total) já registrada ?"
+- **Resposta esperada:** "
+    A resposta deve conter essa linha de dados
+
+    TRX-108,2024-05-08,Receita,Vendas Balcão,Faturamento do dia,890.0,Dinheiro,Concluído
+"
 - **Resultado:** [ ] Correto  [ ] Incorreto
 
 ### Teste 3: Pergunta fora do escopo
-- **Pergunta:** "Qual a previsão do tempo?"
+- **Pergunta:** "Qual  o resultado do jogo do Brasil ?"
 - **Resposta esperada:** Agente informa que só trata de finanças
-- **Resultado:** [ ] Correto  [ ] Incorreto
+- **Resultado:** [X] Correto  [ ] Incorreto
 
 ### Teste 4: Informação inexistente
 - **Pergunta:** "Quanto rende o produto XYZ?"
@@ -59,13 +69,3 @@ Após os testes, registre suas conclusões:
 - [Liste aqui]
 
 ---
-
-## Métricas Avançadas (Opcional)
-
-Para quem quer explorar mais, algumas métricas técnicas de observabilidade também podem fazer parte da sua solução, como:
-
-- Latência e tempo de resposta;
-- Consumo de tokens e custos;
-- Logs e taxa de erros.
-
-Ferramentas especializadas em LLMs, como [LangWatch](https://langwatch.ai/) e [LangFuse](https://langfuse.com/), são exemplos que podem ajudar nesse monitoramento. Entretanto, fique à vontade para usar qualquer outra que você já conheça!
